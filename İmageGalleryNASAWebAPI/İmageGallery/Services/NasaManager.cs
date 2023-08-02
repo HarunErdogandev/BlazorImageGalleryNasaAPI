@@ -18,7 +18,7 @@ namespace İmageGallery.Services
         {
             if (true)
             {
-
+                Console.WriteLine("a");
             }
             return _httpClient.GetFromJsonAsync<NasaApodModel>
                 ("https://api.nasa.gov/planetary/apod?api_key=eeEM1odASI77SG1NqBabojaxzarihRddSctaUcFg");

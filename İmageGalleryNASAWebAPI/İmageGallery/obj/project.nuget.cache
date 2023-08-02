@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CMlelJVPIkWBwPF5/63Yo6yyjn0wZHs2X/iKG/5gDpjZoAEdG9LEp9qMRmg5XJRIF/G3arIk79SXowZJmPQnuQ==",
+  "dgSpecHash": "ccliUbuAYGS6Dnm02noS3F5RoROPKlf6xM07pVsFqDQRDbL6cfpFJtZrrhT2UYxJGWL8lvDhdiI4dkf5vbHR2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
+  "projectFilePath": "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\İf(contains(nope))\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\İf(contains(nope))\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

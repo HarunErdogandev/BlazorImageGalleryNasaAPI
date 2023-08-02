@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj": {}
+    "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj": {
+    "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
+        "projectUniqueName": "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
         "projectName": "İmageGallery",
-        "projectPath": "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
+        "projectPath": "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\İmageGallery.csproj",
         "packagesPath": "C:\\Users\\İf(contains(nope))\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\İf(contains(nope))\\Desktop\\İmageGalleryNASAWebAPI\\İmageGallery\\obj\\",
+        "outputPath": "C:\\Users\\İf(contains(nope))\\Documents\\GitHub\\BlazorImageGalleryNasaAPI\\İmageGalleryNASAWebAPI\\İmageGallery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\İf(contains(nope))\\AppData\\Roaming\\NuGet\\NuGet.Config",
