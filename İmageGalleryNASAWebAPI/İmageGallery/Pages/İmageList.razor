@@ -8,10 +8,10 @@
 
 <h3>JSON Veri Gösterme</h3>
 
-@if (data != null)
+@*@if (datas != null)
 {
     <ul>
-        @foreach (var item in data.collection.items)
+        @foreach (var item in datas.collection.items)
         {
             @foreach (var items in item.links)
             {
@@ -23,10 +23,22 @@
 else
 {
     <p>Loading...</p>
-}
+}*@
 
 
+<ul>
+    @{
+        foreach (var datas in GetDatas)
+        {
+            foreach (var item in datas)
+            {
+                <h1>@item.nasa_id</h1>
+            }
+            
 
+        }
+    }
+</ul>
 
 
 
@@ -41,12 +53,18 @@ else
     private Collection nasaData;
     private List<Link> links;
     private NasaApodModel nasaApod;
-    private RootObject data;
+    private RootObject datas;
+    private List<List<Data>> GetDatas;
 
     protected override async Task OnInitializedAsync()
     {
         // JSON verisini almak için HttpClient'i kullanıyoruz
-        data = await httpClient.GetFromJsonAsync<RootObject>("https://images-api.nasa.gov/search?media_type=image"); // JSON verisinin gerçek URL'sini buraya ekleyin
+        datas = await httpClient.GetFromJsonAsync<RootObject>("https://images-api.nasa.gov/search?media_type=image&page=7");
+
+        var Search = datas.collection.items.Select(x=>x.data).ToList();
+
+        GetDatas = Search;
+
     }
     
 }
