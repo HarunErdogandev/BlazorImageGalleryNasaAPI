@@ -1,0 +1,52 @@
+﻿@page "/imagelist"
+@using System.Text.Json;
+@using İmageGallery.Models;
+@using İmageGallery.Services;
+@inject INasaService NasaService
+@inject HttpClient httpClient
+<h3>İmageList</h3>
+
+<h3>JSON Veri Gösterme</h3>
+
+@if (data != null)
+{
+    <ul>
+        @foreach (var item in data.collection.items)
+        {
+            @foreach (var items in item.links)
+            {
+                <img style="width:200px; height:200px" src="@items.href" alt="..." class="img-thumbnail">
+            }
+        }
+    </ul>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@code {
+    private Collection nasaData;
+    private List<Link> links;
+    private NasaApodModel nasaApod;
+    private RootObject data;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // JSON verisini almak için HttpClient'i kullanıyoruz
+        data = await httpClient.GetFromJsonAsync<RootObject>("https://images-api.nasa.gov/search?media_type=image"); // JSON verisinin gerçek URL'sini buraya ekleyin
+    }
+    
+}
